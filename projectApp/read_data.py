@@ -25,3 +25,5 @@ def get_planet_data():
 
     print(data[0])
     return data
+
+    get_planet_data()
