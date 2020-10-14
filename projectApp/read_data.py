@@ -1,7 +1,9 @@
+import sys
+sys.path.insert(0,"/var/www/html/myProject/FlaskApp/")
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
-from db_engine import eng
+from projectApp.db_engine import eng
 
 def get_planet_data():
     engine = create_engine(eng)
