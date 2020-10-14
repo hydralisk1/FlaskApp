@@ -58,6 +58,7 @@ function table_view(){
         d3.select("#prv").on("click", function(){
             page--;
             table_view();
+            console.log(page);
         });
     }else{
         prev_button.attr("class", "btn btn-outline-dark btn-sm disabled");
