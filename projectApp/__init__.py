@@ -1,5 +1,7 @@
+import sys
+sys.path.insert(0,"/var/www/html/myProject/FlaskApp/")
 from flask import Flask, render_template
-from read_data import get_planet_data
+from projectApp.read_data import get_planet_data
 
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
