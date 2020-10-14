@@ -23,4 +23,5 @@ def get_planet_data():
         
         data.append(temp_dict)
 
+    print(data[0])
     return data
