@@ -76,9 +76,9 @@ CREATE TABLE "column_document" (
 CREATE TABLE "glossary" (
     "name" varchar(50)   NOT NULL,
     "abbr" varchar(10)   NULL,
-    "value" varchar(50)   NULL,
-    "description" varchar(200)   NOT NULL,
-    "more_info" varchar(200)   NULL
+    "value" varchar   NULL,
+    "description" varchar   NOT NULL,
+    "more_info" varchar   NULL
 );
 
 ALTER TABLE "planets" ADD CONSTRAINT "fk_planets_host_star" FOREIGN KEY("host_star")
