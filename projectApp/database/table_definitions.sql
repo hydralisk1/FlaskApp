@@ -17,7 +17,7 @@ CREATE TABLE "planets" (
     "name" varchar(50)   NOT NULL,
     "host_star" varchar(50)   NOT NULL,
     "ltr" char(1)   NULL,
-    "disc_year" date   NOT NULL,
+    "disc_year" int   NOT NULL,
     "orb_period_ed" float   NULL,
     "radius_e" float   NULL,
     "circumference_k" int   NOT NULL,
