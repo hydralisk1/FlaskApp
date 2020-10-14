@@ -16,7 +16,7 @@ def get_planet_data():
 
     query = session.query(Planets.name, Planets.host_star, Planets.radius_e, Planets.temp_f, Planets.habit_code)
     data = []
-    keys = ["name", "host_star", "radius_e", "temp_k", "habit_code"]
+    keys = ["name", "host_star", "radius_e", "temp_f", "habit_code"]
 
     for row in query:
         temp_dict = {}
