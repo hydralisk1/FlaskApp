@@ -2,7 +2,7 @@
 *  RUT-SOM-DATA-PT-06-2020-U-C                   Douglas High *
 *   >SETL-Challenge                           August 31, 2020 *
 *                    TABLE DEFINITION SQL                     *
-*  M1 10/2020- added habit_code and solar_flux to plamets.    *
+*  M1 10/2020- added habit_code and solar_flux to planets.    *
 ***************************************************************
 */
 -- **  drop all tables  **--
@@ -76,7 +76,7 @@ CREATE TABLE "column_document" (
 CREATE TABLE "glossary" (
     "name" varchar(50)   NOT NULL,
     "abbr" varchar(10)   NULL,
-    "value" varchar(50)   NOT NULL,
+    "value" varchar(50)   NULL,
     "description" varchar(200)   NOT NULL,
     "more_info" varchar(200)   NULL
 );
