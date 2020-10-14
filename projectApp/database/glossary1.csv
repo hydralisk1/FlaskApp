@@ -1,4 +1,4 @@
-name,abbr,value,description,more_info
+﻿name,abbr,value,description,more_info
 Galactic Year,Gyr,230 Billion Years,Time for our solar system to orbit the center of the Milky Way.,https://en.wikipedia.org/wiki/Galactic_year
 Parsec,pc,trigometric parallax function,"~3.3 light years/ 210,000 astronomical units/31 trillion km/19 trillion miles.",https://en.wikipedia.org/wiki/Parsec
 Light Year,ly,"9,460,730,472,580,800 meters","distance that?light travels in vacuum?in one?Julian year?(365.25 days), ~9.46 trillion km/ 5.88 trillion miles.",https://en.wikipedia.org/wiki/Light-year
