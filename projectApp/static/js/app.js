@@ -86,7 +86,7 @@ function init(){
                           .call(d3.axisBottom(xLinearScale));
     
     var yAxis = chartGroup.append("g")
-                          .attr("transform", `translate(${width/2}, 0)`)
+                          //.attr("transform", `translate(${width/2}, 0)`)
                           .call(d3.axisLeft(yLinearScale));
     
     // Render stars
